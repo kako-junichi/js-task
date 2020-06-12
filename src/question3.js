@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const GetApi = async () => {
+const Question3 = async () => {
   try {
     const url = 'http://dummy.restapiexample.com/api/v1/employees';
     const response = await axios.get(url);
@@ -13,4 +13,4 @@ const GetApi = async () => {
     console.log(error);
   }
 };
-GetApi();
+Question3();
